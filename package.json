@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@akarui/aoi.db": "github:AkaruiDevelopment/aoi.db#v2",
+    "@akarui/aoi.music": "^2.3.2",
+    "@types/node": "^18.0.6",
+    "aoi.js": "github:AkaruiDevelopment/aoi.js#v6",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "opusscript": "^0.0.8"
+  }
+}
