@@ -2,7 +2,7 @@ const { AoiClient } = require("aoi.js");
 const { AoiVoice, PlayerEvents, PluginName, Cacher, Filter } = require("@akarui/aoi.music");
 
  const client = new AoiClient({
-  token: "OTgzNjYwOTMzNTkzMzA5MjE0.GlGReM.72gFRxn3o1n-pDbLhyh97VOfuXEO0T1AxZ9Dfo",
+  token: "",
   prefix: "$getGuildVar[prefix]",
   intents: ["MessageContent", "Guilds", "GuildMessages", "GuildVoiceStates"],
   events: ["onMessage", "onInteractionCreate"],
